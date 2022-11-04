@@ -1,0 +1,17 @@
+.berlla-navbar {
+    min-height: 100px;
+}
+.logo {
+    width: 70px;
+}
+.nav-brand {
+    font-family: 'Great Vibes', cursive;
+    color: var(--color-primary);
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.nav-brand:hover {
+    color: var(--color-light);
+}

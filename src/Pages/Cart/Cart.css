@@ -1,0 +1,3 @@
+.counter--plus , .counter--minus{
+    color: var(--color-primary);
+}

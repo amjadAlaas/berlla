@@ -1,0 +1,101 @@
+
+@media (min-width: 1200px) {
+    .products-item {
+     width: calc(100% / 3);
+    }
+}
+@media (max-width: 1199px) {
+    .products-item {
+     width: calc(100% / 2);
+    }
+}
+@media (max-width: 767px) {
+    .products-item {
+     width: 100%;
+    }
+}
+.products-items {
+    position: relative;
+}
+
+.card-wrapper {
+    background-color: var(--color-dark);
+    border-radius: calc(var(--border-raduis-primary) / 2);
+    padding: calc(var(--padding-primary) / 2);
+    margin: calc(var(--margin-primary) / 5);
+}
+.products-item-image {
+        max-width: 100%;
+        width: 180px;
+        height: 240px;
+        margin: 0 auto;
+        margin-bottom: calc(var(--margin-primary) / 2);
+    }
+.products-item-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: calc(var(--border-raduis-primary) / 4);
+    margin-bottom: calc(var(--margin-primary) / 2);
+    transition: all .5s ease;
+}
+.products-item-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+.products-item-content .my-icon {
+    color: var(--color-icons);
+    margin: calc(var(--margin-primary) / 5);
+}
+.products-item-title {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+.price {
+    margin: 0 20px;
+}
+.cart-icon {
+    margin-right: 5px;
+}
+.price-cart {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colors {
+    display: flex;
+}
+.color-item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.active {
+    border: 1px solid #fff;
+}
+.full-size {
+    width: 70%;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: height .3s;
+    transition: width .3s;
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f5008b;
+    border-radius: 50%;
+    width: 30px;
+    font-size: 25px;
+    height: 30px;
+    text-align: center;
+    display: none;
+    line-height: 25px;
+    cursor: pointer;
+}

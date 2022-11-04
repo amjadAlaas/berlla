@@ -1,0 +1,26 @@
+.hero-main {
+    background: url('../../assets/imgs/Hero.jpg') no-repeat center left;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border-radius: var(--border-raduis-primary);
+    padding: var(--padding-primary);
+}
+.hero-main .hero-text{
+    max-width: 500px;
+}
+.hero-main .hero-subtitle{
+    font-size: 20px;
+    color: #fff;
+    font-weight: var(--font-weight-normal);
+    margin-bottom: calc(var(--margin-primary) / 2);
+}
+.hero-main .hero-title{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: calc(var(--margin-primary) / 2);
+    font-weight: var(--font-weight-bold);
+}
+.hero-main .hero-title em {
+    font-style: normal;
+    color: var(--color-primary);
+}
